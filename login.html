@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+ nav{
+    background: url(./image/bd.jpg);
+    border-bottom: 10px solid rgb(48, 43, 43);
+    height: 70px;
+    box-shadow: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 50px;
+    left: 0px;
+    color:rgb(11, 73, 3);
+    background: rgb(223, 207, 207);
+}
+.logo:hover{
+    background: rgb(216, 196, 196);
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+}
+.menu a svg{
+    background: rgb(216, 216, 219);
+    padding: 5px 5px;
+    
+}
+.menu a:hover{
+    background: rgb(207, 72, 72);
+}
+.menu a b{
+    /* font-size: 30px; */
+    background-color: white;
+    border-radius:  80px;
+    margin: 30px;
+    padding: 8px 20px;
+}
+        .lg{
+            
+            position: absolute;
+            top: 50px;
+            left: 40%;
+            bottom: 20%;
+        }
+        .bg{
+            background: url(./image/bgc.jpg);
+        }       
+        .lg h2{
+            text-align: center;
+            font-size: 40px;
+            margin: 60px 0;
+        }
+        .lg p{
+            font-size: 20px;
+            padding-top: 5px;
+            margin: 10px 0;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .lg input{
+            font-size: 20px;
+            outline: none;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 5px;
+            background: rgb(250, 241, 243);
+        }
+        .lg button{
+            font-size: 20px;
+            margin: 20px 0;
+            padding: 10px 30px;
+            border-radius: 5px;
+            background: rgb(18, 231, 18);
+        }
+        .lg a{
+            font-size: 26px;
+            margin: 15px 0;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: rgb(18, 231, 18);
+            border-radius: 5px;
+            outline: 2px solid black;
+
+        }
+    </style>
+</head>
+<body class="bg">
+    <nav>
+        <div class="logo">
+            BRAND FACTORY </div>
+        <div class="menu">
+        <a href="home.html"><b> Home</b></a>
+        <a href="aboutus.html"><b>About_Us</b></a>
+        <a href="contactus.html"><b>Contact_US</b></a>
+        <a href="login.html"><b>Login</b></a>
+        </div>
+    <div class="lg">
+        <form action="actionform.html" autocomplete="off">
+        <h2>Login form</h2>
+         <p>Name</p><input type="text" placeholder="Enter Your Name Here" required ><br>
+         <p>Mob No</p><input type="tel" placeholder="Enter Your Mob No" required><br>
+         <p>E-mail</p> <input type="email" placeholder="Enter Your Email Here" required><br>
+         <p>Password</p><input type="password" placeholder="password" required><br><br>
+        <button> SUBMIT</button>
+        <button>RESET</button><br><br>
+        <a href="#"> Already Registered_?</a><br><br>
+    </form>
+        </div>
+        </div>
+
+</body>
+</html>
